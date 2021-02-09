@@ -36,21 +36,205 @@
   display: flex;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.fas .fa-tractor {
+  color: green;
+}
+
+@media only screen and (min-width: 280px) {
+  .map {
+    height: 300px;
+  }
+  .address {
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .location {
+    height: 350px;
+    margin-right: 10px;
+  }
+  .smi {
+    width: 220px;
+    margin-left: 30px;
+  }
+  .icon-d {
+    margin-left: 30px;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .map {
+    height: 300px;
+  }
+  .address {
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .smi {
+    width: 220px;
+    margin-left: 45px;
+  }
+  .icon-d {
+    margin-left: 40px;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .map {
+    height: 350px;
+  }
+  .address {
+    padding: 0;
+  }
+
+  .location {
+    height: 360px;
+  }
+
+  .smi {
+    width: 340px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .map {
+    height: 300px;
+  }
+  .address {
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .smi {
+    width: 220px;
+    margin-left: 70px;
+  }
+  .icon-d {
+    margin-left: 40px;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  .map {
+    height: 350px;
+  }
+  .address {
+    padding: 0;
+  }
+  .smi {
+    margin-left: 30px;
+  }
+
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .map {
+    height: 300px;
+  }
+  .address {
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .location {
+    height: 300px;
+  }
+  .smi {
+    width: 220px;
+    margin-left: 90px;
+  }
+  .icon-d {
+    margin-left: 30px;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .map {
+    height: 500px;
+  }
+  .address {
+    padding: 0;
+    margin-left: 10px;
+    font-size: 1.5em;
+  }
+  .location {
+    height: 300px;
+  }
+  .smi {
+    width: 500px;
+    margin-left: 0;
+  }
+  .icon-d {
+    margin: 0;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .map {
+    height: 500px;
+  }
+  .address {
+    padding: 0;
+    margin-left: 10px;
+    font-size: 1.5em;
+  }
+  .location {
+    height: 300px;
+  }
+  .smi {
+    width: 700px;
+    margin-left: 0;
+  }
+  .icon-d {
+    margin: 0;
+  }
+  .A {
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .map {
     width: 500px;
-    height: 500px;
+    height: 400px;
     margin: 0;
   }
   .smi {
     width: 400px;
+    margin-left: 30px;
+  }
+  .address {
+    margin-top: 200px;
   }
 }
 
 @media only screen and (min-width: 1261px) {
   .map {
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 600px;
+  }
+  .smi {
+    margin-left: 100px;
   }
 }
 
