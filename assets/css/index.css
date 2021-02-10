@@ -41,10 +41,6 @@
   height: 50px;
 }
 
-.fas .fa-tractor {
-  color: green;
-}
-
 @media only screen and (min-width: 280px) {
   .map {
     height: 300px;
@@ -101,8 +97,16 @@
     height: 360px;
   }
 
+  .icon-a {
+    margin: 10px;
+  }
+
+  .icon-d {
+    margin-left: 50px;
+  }
+
   .smi {
-    width: 340px;
+    width: 300px;
   }
 }
 
@@ -115,7 +119,7 @@
     font-size: 1.2em;
   }
   .smi {
-    width: 220px;
+    width: 300px;
     margin-left: 70px;
   }
   .icon-d {
@@ -134,7 +138,8 @@
     padding: 0;
   }
   .smi {
-    margin-left: 30px;
+    width: 300px;
+    margin-left: 70px;
   }
 
   .A {
@@ -154,11 +159,11 @@
     height: 300px;
   }
   .smi {
-    width: 220px;
-    margin-left: 90px;
+    width: 300px;
+    margin-left: 70px;
   }
   .icon-d {
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .A {
     margin-left: 20px;
@@ -224,7 +229,7 @@
     margin-left: 30px;
   }
   .address {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
 
@@ -235,6 +240,10 @@
   }
   .smi {
     margin-left: 100px;
+  }
+
+  .address {
+    margin-top: 200px;
   }
 }
 
