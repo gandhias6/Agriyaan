@@ -231,22 +231,26 @@
   .address {
     margin-top: 100px;
   }
+
+  .navbar-nav {
+    margin-left: 50px;
+  }
 }
 
 @media only screen and (min-width: 1261px) {
   .map {
     width: 650px;
-    height: 600px;
+    height: 500px;
   }
   .smi {
     margin-left: 100px;
   }
 
   .address {
-    margin-top: 200px;
+    margin-top: 100px;
+  }
+
+  .navbar-nav {
+    margin-left: 350px;
   }
 }
-
-/* #navbarNavDropdown {
-  margin-left: 600px;
-} */
