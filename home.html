@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/preloader.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     
@@ -20,395 +21,417 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(187, 240, 187)">
-      
-      <a class="navbar-brand" href="#">
-        <img src="assets/img/20210209_125551.png" width="50" height="50" alt="">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-align: right;">
-        <ul class="navbar-nav">
-          
-          <li class="nav-item dropdown" style="margin-right: 20px;">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
-              About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="assets/templates/story.html">Our Story</a>
-              <a class="dropdown-item" href="#team">Our Team</a>
-              <a class="dropdown-item" href="#">Our Business Model</a>
-              <a class="dropdown-item" href="#">Our Constitution</a>
-              <a class="dropdown-item" href="#">Our Mentors</a>
-              <a class="dropdown-item" href="#">Awards & Associations</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown" style="margin-right: 20px;">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
-              Businesses
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Overview</a>
-              <a class="dropdown-item" href="#">Rural Smart Technologies</a>
-              <a class="dropdown-item" href="#">Fast Moving Customer Goods</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown" style="margin-right: 20px;">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
-              Product
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">BAAHR®</a>
-              <a class="dropdown-item" href="#">ANTILIZ®</a>
-              <a class="dropdown-item" href="#">Upcoming Products</a>
-            </div>
-          </li>
-          <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link" href="#" style="font-size: 20px;">Endorsements</a>
-          </li>
-          <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link" href="#contact" style="font-size: 20px;">Contact Us</a>
-          </li>
-          <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link" href="assets/templates/login.html" style="font-size: 20px;">Sign In</a>
-          </li>
-          <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link" href="assets/suli.html"><i class="fas fa-cart-plus fa-2x" style="margin-left: 20px;"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-
-    <header
-      class="masthead text-white text-center"
-      style="background-size:cover; padding: 0;"
-    >
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div id="loader">
+      <div class="parent">
+        <img src="assets/img/leaf.png" class="lfs"><br>
+        <img src="assets/img/arrow.png" class="arw">
+        <div class="child"></div>
     </div>
-    
-    </header>
+    </div>
 
-    <section class="features-icons text-center" style="background-color:rgb(187, 240, 187)">
-      <div class="container">
-        <div>
-          <h1>WHAT WE DO</h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-              <div class="d-flex features-icons-icon">
-                <i
-                  class="fas fa-tractor fa-5x m-auto" style="color: rgb(71, 163, 71)"
-                  data-bs-hover-animate="pulse"  
-                ></i>
-              </div>
-              <h3>Content</h3>
-              <p class="lead mb-0">Different Tools for , Different Feilds!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-              <div class="d-flex features-icons-icon">
-                <i
-                  class="fas fa-biohazard fa-5x m-auto" style="color: rgb(71, 163, 71)"
-                  data-bs-hover-animate="pulse"
-                ></i>
-              </div>
-              <h3>Content</h3>
-              <p class="lead mb-0">
-                Featuring the latest build of Technology of Agriyaan!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-              <div class="d-flex features-icons-icon">
-                <i
-                  class="fas fa-seedling fa-5x m-auto" style="color: rgb(71, 163, 71)"
-                  data-bs-hover-animate="pulse"
-                ></i>
-              </div>
-              <h3>Content</h3>
-              <p class="lead mb-0">Our Products</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-          <div
-            class="col-lg-6 order-lg-2 text-white showcase-img"
-            style='background-image:url("assets/img/NB4I8Ax.jpg");'
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
-            <h2>Content</h2>
-            <p class="lead mb-0">
-              A farmer(also called an agriculturer) is a person engaged in
-              agriculture, raising living organisms for food or raw materials.
-              The term usually applies to people who do some combination of
-              raising field crops, orchards, vineyards, poultry, or other
-              livestock.
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div
-            class="col-lg-6 text-white showcase-img"
-            style='background-image:url("assets/img/NB4I8Ax.jpg");'
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
-            <h2>Content</h2>
-            <p class="lead mb-0">
-              A farmer(also called an agriculturer) is a person engaged in
-              agriculture, raising living organisms for food or raw materials.
-              The term usually applies to people who do some combination of
-              raising field crops, orchards, vineyards, poultry, or other
-              livestock.
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div
-            class="col-lg-6 order-lg-2 text-white showcase-img"
-            style="background-image:url('assets/img/NB4I8Ax.jpg');"
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
-            <h2>Content</h2>
-            <p class="lead mb-0">
-              A farmer(also called an agriculturer) is a person engaged in
-              agriculture, raising living organisms for food or raw materials.
-              The term usually applies to people who do some combination of
-              raising field crops, orchards, vineyards, poultry, or other
-              livestock.
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div
-            class="col-lg-6 text-white showcase-img"
-            style='background-image:url("assets/img/NB4I8Ax.jpg");'
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
-            <h2>Content</h2>
-            <p class="lead mb-0">
-              A farmer(also called an agriculturer) is a person engaged in
-              agriculture, raising living organisms for food or raw materials.
-              The term usually applies to people who do some combination of
-              raising field crops, orchards, vineyards, poultry, or other
-              livestock.
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div
-            class="col-lg-6 order-lg-2 text-white showcase-img"
-            style="background-image:url('assets/img/NB4I8Ax.jpg');"
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
-            <h2>Content</h2>
-            <p class="lead mb-0">
-              A farmer(also called an agriculturer) is a person engaged in
-              agriculture, raising living organisms for food or raw materials.
-              The term usually applies to people who do some combination of
-              raising field crops, orchards, vineyards, poultry, or other
-              livestock.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="testimonials text-center" id="team" style="background-color:rgb(187, 240, 187)">
-      <div class="container">
-        <h2 class="mb-5">People Behind the Great Job!!</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="mx-auto testimonial-item mb-5 mb-lg-0">
-              <img
-                class="rounded-circle img-fluid mb-3"
-                src="assets/img/download.png"
-              />
-              <h5> PIYUSH KUMAR SINGH</h5>
-              <p class="font-weight-light mb-0">
-                Group CEO and Group Chair of Scyara Group of Industries
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="mx-auto testimonial-item mb-5 mb-lg-0">
-              <img
-                class="rounded-circle img-fluid mb-3"
-                src="assets/img/download.png"
-              />
-              <h5> MANOJ KUMAWAT</h5>
-              <p class="font-weight-light mb-0">
-              	Chief Operation Officer
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="mx-auto testimonial-item mb-5 mb-lg-0">
-              <img
-                class="rounded-circle img-fluid mb-3"
-                src="assets/img/download.png"
-              />
-              <h5> SUPRIYA R RANANAWARE</h5>
-              <p class="font-weight-light mb-0">
-                CSO and Member
-              </p>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div><h5>AND A GREAT TEAM OF MARKETING, FINANCE, OPERATION, HR AND PRODUCTION</h5></div>
-      </div>
-    </section>
-    <section
-      class="call-to-action text-white text-center"
-      style="background:url('assets/img/NB4I8Ax.jpg')no-repeat center center;background-size:cover;"
-    ></section>
 
-    <div class="row" id="contact" style="margin: auto;">
-      <div class="col-lg-6">
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.3802983197975!2d75.74458651478946!3d26.900318083133023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzAxLjIiTiA3NcKwNDQnNDguNCJF!5e0!3m2!1sen!2sin!4v1612867116092!5m2!1sen!2sin"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            style="border:0;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-            style="margin: auto;"
-          ></iframe>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="location" >
-          <ul class="address">
-            <li class="A">
-              <i class="fa fa-map-marker-alt" style="padding: 1%;"></i>
-              <address>
-                <a href="https://goo.gl/maps/huG3GqKjtaHSEj7k9" target="_blank" style="color: green;">
-                  554 MOTI NAGAR WEST<br> DR HABIB MARG JAIPUR RJ 302021 INDIA</a>
-                
-              </address>
+
+    <div class="agri-content">
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(187, 240, 187)">
+      
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/20210209_125551.png" width="50" height="50" alt="">
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-align: right;">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item dropdown" style="margin-right: 20px;">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="assets/templates/story.html">Our Story</a>
+                <a class="dropdown-item" href="#team">Our Team</a>
+                <a class="dropdown-item" href="#">Our Business Model</a>
+                <a class="dropdown-item" href="#">Our Constitution</a>
+                <a class="dropdown-item" href="#">Our Mentors</a>
+                <a class="dropdown-item" href="#">Awards & Associations</a>
+              </div>
             </li>
-            <li class="A">
-              <i class="fas fa-phone-alt" style="padding: 1%;"></i
-              ><span><a href="tel:+91 999 382 9000" target="_blank" style="color: green;">+91 999 382 9000</a></span>
+            <li class="nav-item dropdown" style="margin-right: 20px;">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
+                Businesses
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Overview</a>
+                <a class="dropdown-item" href="#">Rural Smart Technologies</a>
+                <a class="dropdown-item" href="#">Fast Moving Customer Goods</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown" style="margin-right: 20px;">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
+                Product
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">BAAHR®</a>
+                <a class="dropdown-item" href="#">ANTILIZ®</a>
+                <a class="dropdown-item" href="#">Upcoming Products</a>
+              </div>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="#" style="font-size: 20px;">Endorsements</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="#contact" style="font-size: 20px;">Contact Us</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="assets/templates/login.html" style="font-size: 20px;">Sign In</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="assets/suli.html"><i class="fas fa-cart-plus fa-2x" style="margin-left: 20px;"></i></a>
             </li>
           </ul>
-          <br />
-          
-            <div class="smi">
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item">
-                  <div class="icon-a">
-                    <a href="#"><img src="assets/img/facebook.png" width="60" height="60" ></a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="icon-b">
-                    <a href="#" target="_blank"><img src="assets/img/twitter.png" width="60" height="60" ></a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="icon-c">
-                    <a href="#" target="_blank"><img src="assets/img/instagram.png" width="60" height="60" ></a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="icon-d">
-                    <a href="https://www.linkedin.com/in/singhkumarpiyush/" target="_blank"><img src="assets/img/linkedin.png" width="60" height="60" ></a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="icon-e">
-                    <a href="https://wa.me/919993829000/?text=Hello, This is on behalf of Agriyaan Technologies. How can I help you?" target="_blank"><img src="assets/img/whatsapp.png" width="60" height="60" ></a>
-                  </div>
-                </li>
-              </ul>
-            </div>
         </div>
+      </nav>
+  
+  
+      <header
+        class="masthead text-white text-center"
+        style="background-size:cover; padding: 0;"
+      >
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/NB4I8Ax.jpeg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
-
-    <footer class="footer" style="background-color:rgb(187, 240, 187)" >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item" ><a href="#" style="color: green;">About</a></li>
-              <li class="list-inline-item" ><span>⋅</span></li>
-              <li class="list-inline-item" ><a href="#" style="color: green;">Contact</a></li>
-              <li class="list-inline-item"><span>⋅</span></li>
-              <li class="list-inline-item" >
-                <a href="#" style="color: green;">Terms of &nbsp;Use</a>
+      
+      </header>
+  
+      <section class="features-icons text-center" style="background-color:rgb(187, 240, 187)">
+        <div class="container">
+          <div>
+            <h1>WHAT WE DO</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                <div class="d-flex features-icons-icon">
+                  <i
+                    class="fas fa-tractor fa-5x m-auto" style="color: rgb(71, 163, 71)"
+                    data-bs-hover-animate="pulse"  
+                  ></i>
+                </div>
+                <h3>Content</h3>
+                <p class="lead mb-0">Different Tools for , Different Feilds!</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                <div class="d-flex features-icons-icon">
+                  <i
+                    class="fas fa-biohazard fa-5x m-auto" style="color: rgb(71, 163, 71)"
+                    data-bs-hover-animate="pulse"
+                  ></i>
+                </div>
+                <h3>Content</h3>
+                <p class="lead mb-0">
+                  Featuring the latest build of Technology of Agriyaan!
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                <div class="d-flex features-icons-icon">
+                  <i
+                    class="fas fa-seedling fa-5x m-auto" style="color: rgb(71, 163, 71)"
+                    data-bs-hover-animate="pulse"
+                  ></i>
+                </div>
+                <h3>Content</h3>
+                <p class="lead mb-0">Our Products</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="showcase">
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 order-lg-2 text-white showcase-img"
+              style='background-image:url("assets/img/NB4I8Ax.jpg");'
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
+              <h2>Content</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 text-white showcase-img"
+              style='background-image:url("assets/img/NB4I8Ax.jpg");'
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
+              <h2>Content</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 order-lg-2 text-white showcase-img"
+              style="background-image:url('assets/img/NB4I8Ax.jpg');"
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
+              <h2>Content</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 text-white showcase-img"
+              style='background-image:url("assets/img/NB4I8Ax.jpg");'
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
+              <h2>Content</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 order-lg-2 text-white showcase-img"
+              style="background-image:url('assets/img/NB4I8Ax.jpg');"
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" style="text-align: center;">
+              <h2>Content</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials text-center" id="team" style="background-color:rgb(187, 240, 187)">
+        <div class="container">
+          <h2 class="mb-5">OUR TEAM</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mx-auto testimonial-item mb-5 mb-lg-0">
+                <img
+                  class="rounded-circle img-fluid mb-3"
+                  src="assets/img/download.png"
+                />
+                <h5> PIYUSH KUMAR SINGH</h5>
+                <p class="font-weight-light mb-0">
+                  Group CEO and Group Chair of Scyara Group of Industries
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mx-auto testimonial-item mb-5 mb-lg-0">
+                <img
+                  class="rounded-circle img-fluid mb-3"
+                  src="assets/img/download.png"
+                />
+                <h5> MANOJ KUMAWAT</h5>
+                <p class="font-weight-light mb-0">
+                  Chief Operation Officer
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mx-auto testimonial-item mb-5 mb-lg-0">
+                <img
+                  class="rounded-circle img-fluid mb-3"
+                  src="assets/img/download.png"
+                />
+                <h5> SUPRIYA R RANANAWARE</h5>
+                <p class="font-weight-light mb-0">
+                  CSO and Member
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div><h5>AND A GREAT TEAM OF MARKETING, FINANCE, OPERATION, HR AND PRODUCTION</h5></div>
+        </div>
+      </section>
+      <section
+        class="call-to-action text-white text-center"
+        style="background:url('assets/img/NB4I8Ax.jpg')no-repeat center center;background-size:cover;"
+      ></section>
+  
+      <div class="row" id="contact" style="margin: auto;">
+        <div class="col-lg-6">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.3802983197975!2d75.74458651478946!3d26.900318083133023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzAxLjIiTiA3NcKwNDQnNDguNCJF!5e0!3m2!1sen!2sin!4v1612867116092!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              style="margin: auto;"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="location" >
+            <ul class="address">
+              <li class="A">
+                <i class="fa fa-map-marker-alt" style="padding: 1%;"></i>
+                <address>
+                  <a href="https://goo.gl/maps/huG3GqKjtaHSEj7k9" target="_blank" style="color: green;">
+                    554 MOTI NAGAR WEST<br> DR HABIB MARG JAIPUR RJ 302021 INDIA</a>
+                  
+                </address>
               </li>
-              <li class="list-inline-item"><span>⋅</span></li>
-              <li class="list-inline-item" ><a href="#" style="color: green;">Privacy Policy</a></li>
+              <li class="A">
+                <i class="fas fa-phone-alt" style="padding: 1%;"></i
+                ><span><a href="tel:+91 999 382 9000" target="_blank" style="color: green;">+91 999 382 9000</a></span>
+              </li>
             </ul>
-
-            <p class="text-muted small mb-4 mb-lg-0">
-              ©2021 . AGRIYAAN TECHNOLOGIES PRIVATE LIMITED . All Rights Reserved .
-            </p>
-            <p class="text-muted small mb-4 mb-lg-0">
-              Powered By
-              <a class="auxin" href="" target="_blank"
-              style="color: green;">Dhruv Bhatia</a
-              >
-            </p>
+            <br />
+            
+              <div class="smi">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <div class="icon-a">
+                      <a href="#"><img src="assets/img/facebook.png" width="60" height="60" ></a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="icon-b">
+                      <a href="#" target="_blank"><img src="assets/img/twitter.png" width="60" height="60" ></a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="icon-c">
+                      <a href="#" target="_blank"><img src="assets/img/instagram.png" width="60" height="60" ></a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="icon-d">
+                      <a href="https://www.linkedin.com/in/singhkumarpiyush/" target="_blank"><img src="assets/img/linkedin.png" width="60" height="60" ></a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="icon-e">
+                      <a href="https://wa.me/919993829000/?text=Hello, This is on behalf of Agriyaan Technologies. How can I help you?" target="_blank"><img src="assets/img/whatsapp.png" width="60" height="60" ></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  
+      <footer class="footer" style="background-color:rgb(187, 240, 187)" >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item" ><a href="#" style="color: green;">About</a></li>
+                <li class="list-inline-item" ><span>⋅</span></li>
+                <li class="list-inline-item" ><a href="#" style="color: green;">Contact</a></li>
+                <li class="list-inline-item"><span>⋅</span></li>
+                <li class="list-inline-item" >
+                  <a href="#" style="color: green;">Terms of &nbsp;Use</a>
+                </li>
+                <li class="list-inline-item"><span>⋅</span></li>
+                <li class="list-inline-item" ><a href="#" style="color: green;">Privacy Policy</a></li>
+              </ul>
+  
+              <p class="text-muted small mb-4 mb-lg-0">
+                ©2021 . AGRIYAAN TECHNOLOGIES PRIVATE LIMITED . All Rights Reserved .
+              </p>
+              <p class="text-muted small mb-4 mb-lg-0">
+                Powered By
+                <a class="auxin" href="" target="_blank"
+                style="color: green;">Dhruv Bhatia</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/js/bs-init.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  
 
+    </div>
+
+    <script>
+      window.onload=function(){
+        document.getElementById('loader').style.display="none";
+        document.getElementById('agri-content').style.display="block";
+      };
+      </script>
+    
     
   </body>
 </html>
