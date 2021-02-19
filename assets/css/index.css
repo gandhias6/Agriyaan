@@ -243,11 +243,13 @@
     height: 500px;
   }
   .smi {
-    margin-left: 100px;
+    width: 500px;
+    padding: 0;
   }
 
   .address {
     margin-top: 100px;
+    padding-left: 50px;
   }
 
   .navbar-nav {

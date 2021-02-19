@@ -5,4 +5,11 @@
 }
 .para {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1261px) {
+  .navbar-nav {
+    margin-left: 350px;
+  }
 }

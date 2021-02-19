@@ -60,7 +60,7 @@ input[type="password"] {
 }
 .loginbox input[type="submit"]:hover {
   cursor: pointer;
-  background: #fffc1;
+  background: #fffc;
   color: #000;
 }
 .login a {
