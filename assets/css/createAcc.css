@@ -11,13 +11,10 @@ body {
   height: 720px;
   background: #000;
   color: #fff;
-  top: 65%;
-  bottom: 55%;
-  left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
+  margin-top: 65px;
 }
 .avatar {
   width: 100px;
@@ -71,4 +68,107 @@ input[type="password"] {
 }
 .login a:hover {
   color: #ffc1;
+}
+
+@media only screen and (min-width: 280px) {
+  .login-div {
+    height: 600px;
+  }
+
+  .loginbox {
+    width: 225px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .login-div {
+    height: 600px;
+  }
+
+  .loginbox {
+    width: 250px;
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .login-div {
+    height: 1700px;
+  }
+
+  .login-div {
+    height: 600px;
+  }
+
+  .loginbox {
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .loginbox {
+    width: 250px;
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  .loginbox {
+    width: 300px;
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 518px) {
+  .loginbox {
+    margin-left: 115px;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .loginbox {
+    width: 300px;
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .loginbox {
+    width: 400px;
+    height: 530px;
+    margin-left: 200px;
+  }
+  .footer {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .loginbox {
+    width: 600px;
+    height: 600px;
+    margin-left: 245px;
+  }
+  .footer {
+    margin-top: 455px;
+  }
+
+  .navbar-nav {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1261px) {
+  .login-div {
+    height: 400px;
+  }
+
+  .loginbox {
+    height: 750px;
+    margin-left: 400px;
+  }
+
+  .navbar-nav {
+    margin-left: 360px;
+  }
 }
