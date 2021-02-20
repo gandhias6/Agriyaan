@@ -243,8 +243,9 @@
     height: 500px;
   }
   .smi {
-    width: 500px;
+    width: 350px;
     padding: 0;
+    margin-left: 80px;
   }
 
   .address {
@@ -254,5 +255,13 @@
 
   .navbar-nav {
     margin-left: 350px;
+  }
+
+  .icon-e {
+    margin-left: 50px;
+  }
+
+  .icon-e {
+    padding-left: 10px;
   }
 }
