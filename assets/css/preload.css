@@ -13,31 +13,31 @@
 }
 
 .parent {
-    margin: 12rem 2.5rem;
+    margin: 12rem 3.8rem;
 }
 
 .lfs {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 60px;
     animation: leaf 1s ease-in-out infinite alternate;
     position: absolute;
     z-index: 3;
 }
 
 .arw {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     top: 20;
     margin-top: 1px;
 }
 
 .child {
-    width: 200px;
-    height: 200px;
-    margin-top: 185px;
+    width: 150px;
+    height: 150px;
+    margin-top: 198px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
@@ -67,77 +67,77 @@
 
 @media only screen and (min-width: 320px) {
     .parent {
-        margin: 11rem 3.6rem;
+        margin: 11rem 5rem;
     }
 
     .child {
-        margin-top: 170px;
+        margin-top: 183px;
     }
 }
 
 @media only screen and (min-width: 360px) {
     .parent {
-        margin: 12rem 5rem;
+        margin: 12rem 6.5rem;
     }
 
     .child {
-        margin-top: 180px;
+        margin-top: 195px;
     }
 }
 
 @media only screen and (min-width: 375px) {
     .parent {
-        margin: 14rem 5.3rem;
+        margin: 14rem 6.8rem;
     }
 
     .child {
-        margin-top: 215px;
+        margin-top: 228px;
     }
 }
 
 @media only screen and (min-width: 411px) {
     .parent {
-        margin: 15rem 6.6rem;
+        margin: 15rem 8.1rem;
     }
 
     .child {
-        margin-top: 233px;
+        margin-top: 245px;
     }
 }
 
 @media only screen and (min-width: 414px) {
     .parent {
-        margin: 15rem 6.8rem;
+        margin: 15rem 8.2rem;
     }
 
     .child {
-        margin-top: 233px;
+        margin-top: 246px;
     }
 }
 
 @media only screen and (min-width: 540px) {
     .parent {
-        margin: 15rem 10.3rem;
+        margin: 15rem 12.5rem;
     }
 
     .child {
-        margin-top: 233px;
+        margin-top: 247px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .parent {
-        margin: 24rem 18.3rem;
+        margin: 24rem 19.7rem;
     }
 
     .child {
-        margin-top: 380px;
+        margin-top: 394px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .parent {
-        margin: 35rem 25.8rem;
+        margin: 35rem 27.5rem;
     }
 
     .child {
@@ -147,10 +147,10 @@
 
 @media only screen and (min-width: 1261px) {
     .parent {
-        margin: 13rem 37rem;
+        margin: 13rem 38.4rem;
     }
 
     .child {
-        margin-top: 200px;
+        margin-top: 210px;
     }
 }
