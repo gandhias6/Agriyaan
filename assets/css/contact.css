@@ -8,23 +8,6 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("font-awesome.min.css");
-@import url("framework.css");
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap");
-@font-face {
-  font-family: "generis";
-  src: url("generis.ttf");
-}
-
-@font-face {
-  font-family: "Moonlight";
-  src: url("MoonLight.otf");
-}
-@font-face {
-  font-family: "Moonbold";
-  src: url("MoonBold.otf");
-}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1,

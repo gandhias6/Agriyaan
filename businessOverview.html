@@ -1,18 +1,33 @@
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Login</title>
-    <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agriyaan</title>
+    <link rel = "icon" href ="./assets/img/20210209_125551.png" type = "image/x-icon"> 
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"/>
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/simple-line-icons.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/preload.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/assets/css/team.css" />
+  </head>
+
   <body>
+
+    <div class="preload">
+      <div class="parent">
+        <img src="assets/img/leaf.png" class="lfs"><br>
+        <img src="assets/img/arrow.png" class="arw">
+        <div class="child"></div>
+      </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(13, 68, 2)">
       
@@ -44,11 +59,10 @@
               Businesses
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/businessOverview.html">Overview</a>
-              <a class="dropdown-item" href="/businessOverview.html#Smart-Rural-Technologies">Smart Rural Technologies</a>
-              <a class="dropdown-item" href="/businessOverview.html#Fast-Moving-Customer-Goods">Fast Moving Customer Goods</a>
-              <a class="dropdown-item" href="/businessOverview.html#Farm-Machinery">Farm Machinery</a>
-              <a class="dropdown-item" href="/businessOverview.html#Crop-Protection">Crop Protection</a>
+              <a class="dropdown-item" href="#">Overview</a>
+              <a class="dropdown-item" href="#">Smart Rural Technologies</a>
+              <a class="dropdown-item" href="#">Fast Moving Customer Goods</a>
+              <a class="dropdown-item" href="#">Farm Machinery</a>
             </div>
           </li>
           <li class="nav-item dropdown" style="margin-right: 20px;">
@@ -61,7 +75,7 @@
               <a class="dropdown-item" href="#KEET">KEET®</a>
               <a class="dropdown-item" href="#MONGOOZ">MONGOOZ®</a>
               <a class="dropdown-item" href="#P.H.I">P.H.I®</a>
-              <a class="dropdown-item" href="/upcomingProducts.html">Upcoming Products</a>
+              <a class="dropdown-item" href="#">Upcoming Products</a>
             </div>
           </li>
           <li class="nav-item" style="margin-right: 20px;">
@@ -80,26 +94,96 @@
       </div>
     </nav>
 
-      <div class="login-div">
+
+      <section class="showcase" style="padding: 0;">
+        <div class="container-fluid p-0">
+          
+            <div class="bg-light text-center" style="padding: 5%;">
+                <h1>Overview</h1>
+              </div>
+
         
-        <div class="loginbox">
-          <img src="assets/img/b.png" class="avatar">
-          <h1>Login</h1>
-          <form>
-          <p>Email Address</p>
-          <input type="text" name="" placeholder="Enter email address">
-          <p>Password</p>
-          <input type="password" name="" placeholder="Enter Password">
-          <input type="submit" name="" value="Login">
-          <a href="#">Forgot Password?</a><br>
-          <br>
-          <a href="/createAcc.html">Create New Account</a>
-          </form>
+              <div class="row no-gutters">
+                <div
+                  class="col-lg-6 text-white showcase-img"
+                  style='background-image:url("assets/img/NB4I8Ax.jpg");'
+                >
+                  <span></span>
+                </div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text" id="Crop-Protection" style="text-align: center;">
+                  <h2>Crop Protection</h2>
+                  <p class="lead mb-0">
+                    A farmer(also called an agriculturer) is a person engaged in
+                    agriculture, raising living organisms for food or raw materials.
+                    The term usually applies to people who do some combination of
+                    raising field crops, orchards, vineyards, poultry, or other
+                    livestock.
+                  </p>
+                </div>
+              </div>
+            
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 order-lg-2 text-white showcase-img"
+              style="background-image:url('assets/img/NB4I8Ax.jpg');"
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" id="Smart-Rural-Technologies" style="text-align: center;">
+              <h2>Smart Rural Technologies</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
           </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 text-white showcase-img"
+              style='background-image:url("assets/img/NB4I8Ax.jpg");'
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" id="Fast-Moving-Customer-Goods" style="text-align: center;">
+              <h2>Fast Moving Customer Goods</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-6 order-lg-2 text-white showcase-img"
+              style="background-image:url('assets/img/NB4I8Ax.jpg');"
+            >
+              <span></span>
+            </div>
+            <div class="col-lg-6 my-auto order-lg-1 showcase-text" id="Farm-Machinery" style="text-align: center;">
+              <h2>Farm Machinery</h2>
+              <p class="lead mb-0">
+                A farmer(also called an agriculturer) is a person engaged in
+                agriculture, raising living organisms for food or raw materials.
+                The term usually applies to people who do some combination of
+                raising field crops, orchards, vineyards, poultry, or other
+                livestock.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </div>
 
-  
+
+
+
+
 
 
 
@@ -139,6 +223,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-</body>
-</head>
+    
+
+  </body>
 </html>
