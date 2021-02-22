@@ -243,9 +243,9 @@
     height: 500px;
   }
   .smi {
-    width: 350px;
+    width: 500px;
     padding: 0;
-    margin-left: 80px;
+    margin-left: 50px;
   }
 
   .address {
@@ -257,11 +257,11 @@
     margin-left: 350px;
   }
 
-  .icon-e {
+  /* .icon-e {
     margin-left: 50px;
   }
 
   .icon-e {
     padding-left: 10px;
-  }
+  } */
 }
