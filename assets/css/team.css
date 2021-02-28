@@ -124,3 +124,46 @@ section .section-title {
   height: 120px;
   border-radius: 50%;
 }
+
+@media only screen and (min-width: 280px) {
+  .co-team {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+}
+
+@media only screen and (min-width: 360px) {
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 411px) {
+}
+
+@media only screen and (min-width: 414px) {
+}
+
+@media only screen and (min-width: 540px) {
+  .co-team {
+    text-align: center;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .co-team {
+    margin-left: 140px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .co-team {
+    margin-left: 260px;
+  }
+}
+
+@media only screen and (min-width: 1261px) {
+}
