@@ -125,45 +125,51 @@ section .section-title {
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 280px) {
+@media only screen and (min-width: 280px) and (max-width: 319px) {
   .co-team {
     text-align: center;
   }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 359px) {
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 374px) {
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 410px) {
 }
 
-@media only screen and (min-width: 411px) {
+@media only screen and (min-width: 411px) and (max-width: 413px) {
+  .co-team {
+    text-align: center;
+  }
 }
 
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 539px) {
 }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 540px) and (max-width: 767px) {
   .co-team {
     text-align: center;
     margin-left: 45px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .co-team {
     margin-left: 140px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
   .co-team {
     margin-left: 260px;
   }
 }
 
 @media only screen and (min-width: 1261px) {
+  .co-team {
+    margin-left: 330px;
+  }
 }
