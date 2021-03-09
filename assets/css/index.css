@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+#wwd {
+  transition: transform 0.8s;
+}
+
+#wwd:hover {
+  transform: scale(1.5);
+}
+
 .navbar-collapse {
   flex-grow: 0;
 }
