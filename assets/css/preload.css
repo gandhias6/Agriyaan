@@ -1,156 +1,156 @@
-.preload{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 16;
-    transition: opacity 0.5s ease;
+.preload {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 999999999;
+  transition: opacity 0.5s ease;
 }
 
-.preload-end{
-    opacity: 0;
-    pointer-events: none;
+.preload-end {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .parent {
-    margin: 12rem 3.8rem;
+  margin: 12rem 3.8rem;
 }
 
 .lfs {
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    margin-top: 60px;
-    animation: leaf 1s ease-in-out infinite alternate;
-    position: absolute;
-    z-index: 3;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 60px;
+  animation: leaf 1s ease-in-out infinite alternate;
+  position: absolute;
+  z-index: 3;
 }
 
 .arw {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 20;
-    margin-top: 1px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 20;
+  margin-top: 1px;
 }
 
 .child {
-    width: 150px;
-    height: 150px;
-    margin-top: 198px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    animation: wipe 1s ease-in-out infinite alternate;
+  width: 150px;
+  height: 150px;
+  margin-top: 198px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  animation: wipe 1s ease-in-out infinite alternate;
 }
 
 @keyframes leaf {
-    0% {
-        transform: scale(0.5);
-    }
+  0% {
+    transform: scale(0.5);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes wipe {
-    0% {
-        transform: translateX(0) rotate(0);
-    }
+  0% {
+    transform: translateX(0) rotate(0);
+  }
 
-    100% {
-        transform: translateX(200px) translateY(-200px) rotate(-90deg);
-    }
+  100% {
+    transform: translateX(200px) translateY(-200px) rotate(-90deg);
+  }
 }
 
 @media only screen and (min-width: 320px) {
-    .parent {
-        margin: 11rem 5rem;
-    }
+  .parent {
+    margin: 11rem 5rem;
+  }
 
-    .child {
-        margin-top: 183px;
-    }
+  .child {
+    margin-top: 183px;
+  }
 }
 
 @media only screen and (min-width: 360px) {
-    .parent {
-        margin: 12rem 6.5rem;
-    }
+  .parent {
+    margin: 12rem 6.5rem;
+  }
 
-    .child {
-        margin-top: 195px;
-    }
+  .child {
+    margin-top: 195px;
+  }
 }
 
 @media only screen and (min-width: 375px) {
-    .parent {
-        margin: 14rem 6.8rem;
-    }
+  .parent {
+    margin: 14rem 6.8rem;
+  }
 
-    .child {
-        margin-top: 228px;
-    }
+  .child {
+    margin-top: 228px;
+  }
 }
 
 @media only screen and (min-width: 411px) {
-    .parent {
-        margin: 15rem 8.1rem;
-    }
+  .parent {
+    margin: 15rem 8.1rem;
+  }
 
-    .child {
-        margin-top: 245px;
-    }
+  .child {
+    margin-top: 245px;
+  }
 }
 
 @media only screen and (min-width: 414px) {
-    .parent {
-        margin: 15rem 8.2rem;
-    }
+  .parent {
+    margin: 15rem 8.2rem;
+  }
 
-    .child {
-        margin-top: 246px;
-    }
+  .child {
+    margin-top: 246px;
+  }
 }
 
 @media only screen and (min-width: 540px) {
-    .parent {
-        margin: 15rem 12.5rem;
-    }
+  .parent {
+    margin: 15rem 12.5rem;
+  }
 
-    .child {
-        margin-top: 247px;
-    }
+  .child {
+    margin-top: 247px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .parent {
-        margin: 24rem 19.7rem;
-    }
+  .parent {
+    margin: 24rem 19.7rem;
+  }
 
-    .child {
-        margin-top: 394px;
-    }
+  .child {
+    margin-top: 394px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-    .parent {
-        margin: 35rem 27.5rem;
-    }
+  .parent {
+    margin: 35rem 27.5rem;
+  }
 
-    .child {
-        margin-top: 557px;
-    }
+  .child {
+    margin-top: 557px;
+  }
 }
 
 @media only screen and (min-width: 1261px) {
-    .parent {
-        margin: 13rem 38.4rem;
-    }
+  .parent {
+    margin: 13rem 38.4rem;
+  }
 
-    .child {
-        margin-top: 210px;
-    }
+  .child {
+    margin-top: 210px;
+  }
 }
